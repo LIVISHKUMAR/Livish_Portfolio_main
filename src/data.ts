@@ -9,7 +9,8 @@ export const data = {
     location: "India",
     summary: "Backend Software Engineer with expertise in architecting scalable enterprise systems using Java, Python, and Spring Boot. Highly skilled in Microservices architecture, Lead Full Stack development, and high-performance API design. Proven track record in optimizing system performance by 60% and managing cloud infrastructure on AWS and Docker to achieve high availability.",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop", // Fallback image
-    actualImage: "./profile.jpg", // Update this with your actual image URL
+    sidebarImage: "./sidebar-profile.jpg", // Image for the sidebar
+    homeImage: "./profile.jpg",    // Image for the home page (you can change this to another file)
     resumeUrl: "/livish_cv.pdf",
   },
   skills: {
