@@ -39,7 +39,7 @@ export const data = {
   projects: [
     {
       title: "Job-Day Enterprise HR Management System",
-      role: "Lead Full Stack Developer",
+      role: "Full Stack Developer",
       highlights: [
         "Architected and built a comprehensive HR platform utilizing 18 Spring Boot microservices and a React frontend, serving over 10,000 users.",
         "Implemented robust JWT authentication, PostgreSQL databases, and Docker-based deployment, achieving 99.9% system uptime.",
