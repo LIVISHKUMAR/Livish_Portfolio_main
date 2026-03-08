@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #007bff;
+  --color-brand-hover: #0056b3;
+}
+
+@variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  html, body {
+    @apply transition-colors duration-500;
+  }
+  
+  /* Selection color */
+  ::selection {
+    background-color: #007bff;
+    color: white;
+  }
+}
