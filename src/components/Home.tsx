@@ -73,7 +73,7 @@ const Home: React.FC<HomeProps> = ({ onNext }) => {
           <div className="absolute inset-0 bg-brand/10 -rotate-3 rounded-3xl"></div>
           <div className="relative z-10 w-full max-w-md aspect-[3/4] bg-gray-200 dark:bg-neutral-800 border-8 border-white dark:border-neutral-700 shadow-2xl overflow-hidden transition-colors duration-500">
             <img
-              src={data.personal.actualImage}
+              src={data.personal.homeImage}
               alt={data.personal.name}
               className="w-full h-full object-cover filter grayscale hover:grayscale-0 transition-all duration-700"
               onError={(e) => {

@@ -93,7 +93,7 @@ const Sidebar: React.FC<SidebarProps> = ({ activeSection, setActiveSection, isDa
           <div className="relative group">
             <div className="w-full aspect-square bg-gray-200 overflow-hidden relative">
               <img
-                src={data.personal.actualImage}
+                src={data.personal.sidebarImage}
                 alt={data.personal.name}
                 className="w-full h-full object-cover filter grayscale"
                 onError={(e) => {
