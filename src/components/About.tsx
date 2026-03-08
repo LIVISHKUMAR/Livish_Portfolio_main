@@ -5,10 +5,10 @@ import { data } from '../data';
 
 const About: React.FC = () => {
   const stats = [
-    { label: "Years Coding", value: "4+" },
-    { label: "Microservices", value: "18+" },
-    { label: "Users Served", value: "10K+" },
-    { label: "Performance", value: "60%" }
+    { label: "Month's of Experience", value: "9+" },
+    { label: "Techs", value: "15+" },
+    { label: "CGPA", value: "7.5" },
+    { label: "Main Projects", value: "5+" }
   ];
 
   const whatIDo = [
