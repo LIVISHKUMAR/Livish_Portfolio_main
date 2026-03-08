@@ -45,7 +45,9 @@ export const data = {
         "Implemented robust JWT authentication, PostgreSQL databases, and Docker-based deployment, achieving 99.9% system uptime.",
         "Led a cross-functional development team, optimizing overall system performance by 60%.",
         "Reduced deployment time from 4 hours to 15 minutes by automating CI/CD pipelines."
-      ]
+      ],
+      github: "http://github.com/livishkumar", // Add your link here
+      live: "https://example.com"             // Add your live link here
     },
     {
       title: "Computer Inventory Management System",
@@ -54,7 +56,9 @@ export const data = {
         "Built a full-stack application to track and manage organizational IT assets efficiently.",
         "Developed a responsive user interface using React and Tailwind CSS for seamless asset tracking.",
         "Created backend services with Spring Boot and PostgreSQL, incorporating role-based access control."
-      ]
+      ],
+      github: "https://github.com/LIVISHKUMAR/computer-inventory-system", // Add your link here
+      live: "https://example.com"             // Add your live link here
     }
   ],
   education: [

@@ -35,10 +35,10 @@ const Portfolio: React.FC = () => {
                     </div>
                   </div>
                   <div className="flex gap-4">
-                    <a href="#" className="p-2 bg-white dark:bg-neutral-700 rounded-full text-black dark:text-white hover:bg-black dark:hover:bg-brand dark:hover:text-black hover:text-white transition-colors">
+                    <a href={project.github} target="_blank" rel="noopener noreferrer" className="p-2 bg-white dark:bg-neutral-700 rounded-full text-black dark:text-white hover:bg-black dark:hover:bg-brand dark:hover:text-black hover:text-white transition-colors">
                       <Github className="w-5 h-5" />
                     </a>
-                    <a href="#" className="p-2 bg-white dark:bg-neutral-700 rounded-full text-black dark:text-white hover:bg-black dark:hover:bg-brand dark:hover:text-black hover:text-white transition-colors">
+                    <a href={project.live} target="_blank" rel="noopener noreferrer" className="p-2 bg-white dark:bg-neutral-700 rounded-full text-black dark:text-white hover:bg-black dark:hover:bg-brand dark:hover:text-black hover:text-white transition-colors">
                       <ExternalLink className="w-5 h-5" />
                     </a>
                   </div>
